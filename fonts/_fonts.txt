@@ -1,0 +1,7 @@
+Abril Fatface - Serif Headings
+IBM Plex Mono - Sans Serif Headings
+Josefin Sans - Sans Serif Headings and Text
+Montserrat - Sans Serif Headings and Text
+Nunito - Sans Serif Headings and Text
+Roboto Slab - Serif Headings and Text
+Sanchez - Serif Headings and Text
