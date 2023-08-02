@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=IBM+Plex+Mono&family=Josefin+Sans&family=Montserrat&family=Nunito&family=Roboto+Slab&family=Sanchez&display=swap");
 
+:root {
+	--dark: #3A3335;
+	--primary: #6B9080;
+	--secondary: #E78F8E;
+	--light: #ECFEE8;
+}
+
 * {
 	padding: 0px;
 	margin: 0px;
@@ -12,7 +19,7 @@ body {
 .navbar {
 	display: flex;
 	justify-content: space-between;
-	padding: 20px;
+	padding: 16px;
 }
 
 .pages {
@@ -24,8 +31,15 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	position: relative; /* Needed for .date alignment */
+	position: relative; /* Needed for .date position absolute alignment */
 	padding: 40px;
+	color: white;
+}
+
+.title {
+	font-family: "Abril Fatface";
+	font-size: 12rem;
+	letter-spacing: .3rem;
 }
 
 .main {
