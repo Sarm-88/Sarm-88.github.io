@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=IBM+Plex+Mono&family=Josefin+Sans&family=Montserrat&family=Nunito&family=Roboto+Slab&family=Sanchez&display=swap");
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: hsl(0, 0%, 20%);
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.pages {
+	display: flex;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative; /* Needed for .date alignment */
+	padding: 40px;
+}
+
+.main {
+	padding: 100px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.article {
+	padding: 20px;
+}
+
+.date {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+
+/* --- */
+
+.fonts {
+	color: white;
+}
+
+.abril {
+	font-family: "Abril Fatface";
+	font-size: 48px;
+}
+
+.ibm {
+	font-family: "IBM Plex Mono";
+	font-size: 48px;
+}
+
+.josefin {
+	font-family: "Josefin Sans";
+	font-size: 48px;
+}
+
+.montserrat {
+	font-family: "Montserrat";
+	font-size: 48px;
+}
+
+.nunito {
+	font-family: "Nunito";
+	font-size: 48px;
+}
+
+.roboto {
+	font-family: "Roboto Slab";
+	font-size: 48px;
+}
+
+.sanchez {
+	font-family: "Sanchez";
+	font-size: 48px;
+}
