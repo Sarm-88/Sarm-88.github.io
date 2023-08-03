@@ -1,10 +1,14 @@
+/* --- Import Fonts --- */
+
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=IBM+Plex+Mono&family=Josefin+Sans&family=Montserrat&family=Nunito&family=Roboto+Slab&family=Sanchez&display=swap");
 
+/* --- Main --- */
+
 :root {
-	--dark: #3A3335;
-	--primary: #6B9080;
-	--secondary: #E78F8E;
-	--light: #ECFEE8;
+	--dark: #3a3335;
+	--primary: #6b9080;
+	--secondary: #e78f8e;
+	--light: #ecfee8;
 }
 
 * {
@@ -39,7 +43,7 @@ body {
 .title {
 	font-family: "Abril Fatface";
 	font-size: 12rem;
-	letter-spacing: .3rem;
+	letter-spacing: 0.3rem;
 }
 
 .main {
@@ -58,7 +62,7 @@ body {
 	bottom: 10px;
 }
 
-/* --- */
+/* --- Fonts --- */
 
 .fonts {
 	color: white;
