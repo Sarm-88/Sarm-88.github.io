@@ -20,14 +20,49 @@ body {
 	background-color: hsl(0, 0%, 20%);
 }
 
+body::-webkit-scrollbar{
+    display: none;
+  }
+
 .navbar {
 	display: flex;
+	align-items: center;
 	justify-content: space-between;
-	padding: 16px;
+	padding: 8px 12px;
+	background: var(--primary);
 }
 
-.pages {
+.logo {
+	color: var(--light);
+	font-family: "Josefin Sans";
+	font-size: 40px;
+	margin-top: 8px;
+}
+
+.nav-search {
 	display: flex;
+	align-items: center;
+}
+
+.navlinks {
+	display: flex;
+	background-color: var(--primary);
+	margin-right: 32px;
+}
+
+.navlinks button {
+	padding: 10px;
+	margin: 5px 2px;
+	color: var(--light);
+	background: var(--primary);
+	border: none;
+	border-radius: 10px;
+	font-family: "Josefin Sans";
+}
+
+.search {
+	font-family: "Josefin Sans";
+	color: var(--light);
 }
 
 .header {
@@ -37,6 +72,7 @@ body {
 	justify-content: center;
 	position: relative; /* Needed for .date position absolute alignment */
 	padding: 40px;
+	background: var(--secondary);
 	color: white;
 }
 
@@ -44,69 +80,76 @@ body {
 	font-family: "Abril Fatface";
 	font-size: 12rem;
 	letter-spacing: 0.3rem;
+	color: var(--light);
 }
 
 .main {
 	padding: 100px;
 	padding-left: 200px;
 	padding-right: 200px;
+	background: var(--primary);
 }
 
 .article {
 	padding: 20px;
+	background: var(--dark);
+	border-radius: 1rem;
 }
 
 .date {
 	position: absolute;
 	right: 10px;
 	bottom: 10px;
+	color: var(--light);
+	font-family: "Josefin Sans";
 }
 
 .subheading {
-	color: white;
+	color: var(--light);
+	font-family: "Sanchez";
+	margin-bottom: 5px;
 }
 
 .text {
-	color: white;
+	color: var(--light);
+	font-family: "Josefin Sans";
+	font-size: 18px;
 }
 
 /* --- Fonts --- */
 
 .fonts {
 	color: white;
+	font-size: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .abril {
 	font-family: "Abril Fatface";
-	font-size: 48px;
 }
 
 .ibm {
 	font-family: "IBM Plex Mono";
-	font-size: 48px;
 }
 
 .josefin {
 	font-family: "Josefin Sans";
-	font-size: 48px;
 }
 
 .montserrat {
 	font-family: "Montserrat";
-	font-size: 48px;
 }
 
 .nunito {
 	font-family: "Nunito";
-	font-size: 48px;
 }
 
 .roboto {
 	font-family: "Roboto Slab";
-	font-size: 48px;
 }
 
 .sanchez {
 	font-family: "Sanchez";
-	font-size: 48px;
 }
