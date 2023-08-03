@@ -62,6 +62,14 @@ body {
 	bottom: 10px;
 }
 
+.subheading {
+	color: white;
+}
+
+.text {
+	color: white;
+}
+
 /* --- Fonts --- */
 
 .fonts {
