@@ -7,6 +7,7 @@
 :root {
 	--dark: #3a3335;
 	--primary: #6b9080;
+	--primary-darker: #546F63;
 	--secondary: #e78f8e;
 	--light: #ecfee8;
 }
@@ -20,9 +21,9 @@ body {
 	background-color: hsl(0, 0%, 20%);
 }
 
-body::-webkit-scrollbar{
-    display: none;
-  }
+body::-webkit-scrollbar {
+	display: none;
+}
 
 .navbar {
 	display: flex;
@@ -63,6 +64,13 @@ body::-webkit-scrollbar{
 .search {
 	font-family: "Josefin Sans";
 	color: var(--light);
+	background: var(--primary);	
+	border: 2px solid var(--light);
+	border-radius: 10px;
+	padding: 8px 15px;
+	padding-right: 100px;
+	padding-top: 10px;
+	font-size: 16px;
 }
 
 .header {
