@@ -179,7 +179,24 @@ body::-webkit-scrollbar {
 	margin-bottom: 10px;
 }
 
-.imgsrc {
+.imglinkholder {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 55%;
+}
+
+.imglinkholder a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.imgdownload {
+	filter: saturate(300%);
+}
+
+.imglink {
 	color: var(--light);
 	font-family: "Josefin Sans";
 }
